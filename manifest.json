@@ -1,0 +1,20 @@
+{
+  "name": "Instagram for small height",
+  "version": "1.0",
+  "description": "Instagram for small height",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.instagram.com/*"],
+      "run_at": "document_idle",
+      "css": ["styles.css"]
+    }
+  ],
+  "manifest_version": 2
+}

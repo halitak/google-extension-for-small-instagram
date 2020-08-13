@@ -1,0 +1,13 @@
+
+/*box*/
+.cGcGK ._97aPb, .cGcGK ._97aPb *{
+    max-height: calc(100vh - 100px) !important;
+}
+.cGcGK ._97aPb video{
+    width: auto !important;
+}
+.cGcGK ._97aPb img{
+    width: auto !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important; 
+}
